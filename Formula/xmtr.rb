@@ -1,28 +1,28 @@
 class Xmtr < Formula
   desc "Concurrent traceroute that maps every hop on xmsl.dev IPMap"
   homepage "https://github.com/Alice39s/xmtr"
-  version "0.4.1"
+  version "0.4.2"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/Alice39s/xmtr/releases/download/v0.4.1/xmtr-aarch64-apple-darwin.tar.gz"
-      sha256 "ea41b6f3130301ae420cdfc146dc080e826447f8a166b76a6623fc15c70f1668"
+      url "https://github.com/Alice39s/xmtr/releases/download/v0.4.2/xmtr-aarch64-apple-darwin.tar.gz"
+      sha256 "39af3721c0fb2a581ff8c0337ec3c005e03eb50be105dfd54d04066f65d94f4b"
     end
     on_intel do
-      url "https://github.com/Alice39s/xmtr/releases/download/v0.4.1/xmtr-x86_64-apple-darwin.tar.gz"
-      sha256 "ee31f8382b02a7421e894f9a158235c064f65c36d7d091584e80371eab64ffce"
+      url "https://github.com/Alice39s/xmtr/releases/download/v0.4.2/xmtr-x86_64-apple-darwin.tar.gz"
+      sha256 "393e4ec3cbead2150aeb5e4c921e9ada15014dcef832052572edcaded4e38308"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Alice39s/xmtr/releases/download/v0.4.1/xmtr-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "03ecc5285321fae27ac6864b3abc193c0ba937a9745666ce383f901d7cb951a2"
+      url "https://github.com/Alice39s/xmtr/releases/download/v0.4.2/xmtr-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "d473b9c2984b7c25df08142a31a06b9ce2cd014216efa99e9c267405a03deda9"
     end
     on_intel do
-      url "https://github.com/Alice39s/xmtr/releases/download/v0.4.1/xmtr-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "52aea0c5d90a4875fee78e0aeac5c0597ff75998a5fe04d59a7031b57530c811"
+      url "https://github.com/Alice39s/xmtr/releases/download/v0.4.2/xmtr-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "155928247f449d6ea8459dd421df7aef9e291ba19cb66173247ac98f16ab3efc"
     end
   end
 
